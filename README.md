@@ -5,7 +5,6 @@
   <img width="800" height="400" src="https://media.giphy.com/media/10bxTLrpJNS0PC/giphy.gif">
 </p>
 
-<h2 align=center>I'm Ray</h2>
 
 <div align="center" style="margin-top: 25px">
     <p>
