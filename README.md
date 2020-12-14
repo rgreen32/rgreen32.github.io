@@ -2,7 +2,7 @@
 <h1 align=center> Welcome to my Github Page!</h1>
 <br/><br/>
 <p align="center">
-<iframe src="https://giphy.com/embed/10bxTLrpJNS0PC" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dancing-cartoons-adventure-time-10bxTLrpJNS0PC">via GIPHY</a></p>
+  <img width="800" height="400" src="https://media.giphy.com/media/10bxTLrpJNS0PC/giphy.gif">
 </p>
 
 <!--
