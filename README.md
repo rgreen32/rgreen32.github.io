@@ -1,21 +1,19 @@
-### Hi there 👋
-<h1 align=center> Welcome to my Github Page!</h1>
+<h1 align=center> Hello, strange internet person! 👋</h1>
+<h3 align=center> Welcome to my github profile!</h3>
 <br/><br/>
 <p align="center">
   <img width="800" height="400" src="https://media.giphy.com/media/10bxTLrpJNS0PC/giphy.gif">
 </p>
 
-<!--
-**rgreen32/rgreen32** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h2 align=center>I'm Ray</h2>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center" style="margin-top: 25px">
+    <p>
+        Im currently writing a <a href="https://github.com/rgreen32/Move">2d physics engine</a> in Rust-Webassembly and learning Rust-Webassembly in the process.
+    </p>
+</div>
+<div align="center">
+    <p>
+        Checkout my site, <a href="https://greenboy.io">greenboy.io</a>, where I host some of my favorite projects.
+    </p>
+</div>
