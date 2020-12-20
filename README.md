@@ -12,7 +12,7 @@
 </div>
 <div align="center" style="margin-top: 25px">
     <p>
-        Im currently writing a <a href="https://github.com/rgreen32/Move">2d physics engine</a> in Rust-Webassembly and learning Rust-Webassembly in the process.
+        I'm currently writing a <a href="https://github.com/rgreen32/Move">2d physics engine</a> in Rust-Webassembly and learning Rust-Webassembly in the process.
     </p>
 </div>
 <div align="center">
