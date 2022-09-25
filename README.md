@@ -10,11 +10,6 @@
         My name is Ray and I work as a Software Engineer in Memphis, TN.
     </p>
 </div>
-<div align="center" style="margin-top: 25px">
-    <p>
-        I'm currently writing a <a href="https://github.com/rgreen32/Move">2d physics engine</a> in Rust-Webassembly and learning Rust-Webassembly in the process.
-    </p>
-</div>
 <div align="center">
     <p>
         Checkout my site, <a href="https://greenboy.io">greenboy.io</a>, where I host some of my favorite projects.
