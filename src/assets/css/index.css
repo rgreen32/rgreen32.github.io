@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+
+body {
+  font-family: "Titillium Web";
+}
+
+.icon {
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.card-img {
+  transition: all 0.2s ease-in-out;
+}
+
+.card-img:hover {
+  transform: scale(1.05);
+}
+
+#footerLogo {
+  position: fixed;
+  left: 15px;
+  bottom: 25px;
+}
+
+#footerIcons {
+  position: fixed;
+  right: 15px;
+  bottom: 25px;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.static {
+  position: absolute;
+}
+
+.static:hover {
+  opacity: 0;
+}
+
+body {
+  background: -webkit-linear-gradient(
+    top,
+    rgb(161, 219, 255) 0%,
+    rgb(203, 235, 255) 53%,
+    rgb(240, 249, 255) 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background-size: 100% 100%;
+}
+
+.clouds {
+  width: 200x;
+  height: 300px;
+  position: absolute;
+}
+
+.cloud1 {
+  top: 0px;
+  z-index: -1;
+  fill: #eee;
+  /* Animation shorthand syntax order: name, duration, timing-function, delay, iteration-count, direction, fill-mode */
+  -webkit-animation: move 40s linear infinite;
+  -moz-animation: move 40s linear infinite;
+  -o-animation: move 40s linear infinite;
+  animation: move 40s linear infinite;
+}
+
+.cloud2 {
+  top: 200px;
+  z-index: -1;
+  fill: #eee;
+  -webkit-animation: move 55s linear infinite;
+  -moz-animation: move 55s linear infinite;
+  -o-animation: move 55s linear infinite;
+  animation: move 55s linear infinite;
+}
+
+.cloud3 {
+  top: 100px;
+  z-index: -1;
+  fill: #eee;
+  -webkit-animation: move 65s linear 10s infinite backwards;
+  -moz-animation: move 65s linear 10s infinite backwards;
+  -o-animation: move 65s linear 10s infinite backwards;
+  animation: move 65s linear 10s infinite backwards;
+}
+
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateX(-80%);
+  }
+  to {
+    -webkit-transform: translateX(400%);
+  }
+}
+
+.elementToFadeInAndOut {
+  opacity: 1;
+  animation: fade 4s linear;
+}
+.elementToFadeInAndOut2 {
+  opacity: 1;
+  animation: fade 4s linear;
+  animation-delay: 5s;
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

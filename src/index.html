@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./assets/media/logo.png" />
+    <script
+      async
+      src="https://kit.fontawesome.com/59a1b739d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style=" z-index: 1; margin: 0; overflow: hidden; height: 100%;">
+    <svg
+      class="clouds cloud1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+      x="0"
+      y="0"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      enable-background="new 0 0 512 512"
+      xml:space="preserve"
+    >
+      <path
+        id="cloud-icon"
+        d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"
+      />
+    </svg>
+    <svg
+      class="clouds cloud2"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+      x="0"
+      y="0"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      enable-background="new 0 0 512 512"
+      xml:space="preserve"
+    >
+      <path
+        id="cloud-icon"
+        d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"
+      />
+    </svg>
+    <svg
+      class="clouds cloud3"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      version="1.1"
+      x="0"
+      y="0"
+      width="512"
+      height="512"
+      viewBox="0 0 512 512"
+      enable-background="new 0 0 512 512"
+      xml:space="preserve"
+    >
+      <path
+        id="cloud-icon"
+        d="M406.1 227.63c-8.23-103.65-144.71-137.8-200.49-49.05 -36.18-20.46-82.33 3.61-85.22 45.9C80.73 229.34 50 263.12 50 304.1c0 44.32 35.93 80.25 80.25 80.25h251.51c44.32 0 80.25-35.93 80.25-80.25C462 268.28 438.52 237.94 406.1 227.63z"
+      />
+    </svg>
+    <canvas style="z-index: 0; position:absolute;" id="canvas"></canvas>
+
+    <div style="z-index: 10; height: 100%;">
+      <div id="hints">
+        <h4
+          class="mt-5 ml-3 elementToFadeInAndOut"
+          style="position: absolute; left: 20; opacity: 0;"
+        >
+          Press spacebar to excite the balls.
+        </h4>
+
+        <h4
+          class="mt-5 ml-3 elementToFadeInAndOut2"
+          style="position: absolute; left: 10; opacity: 0;"
+        >
+          Balls can be picked up with cursor as well.
+        </h4>
+      </div>
+
+      <div class="container" style="height: 100%;">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <div
+              id="logoFrame"
+              class="mt-5"
+              style="width: 90px; height: 90px; border-radius: 50%;"
+            >
+              <img
+                id="logo"
+                height="90px"
+                width="90px"
+                src="./assets/media/logo.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col d-flex justify-content-center">
+            <a href="/worldview">
+              <img
+                id="card1"
+                style="max-width: 300px; max-height: 300px; border-radius: 15px;"
+                class="card-img"
+                src="./assets/media/worldview.jpg"
+            /></a>
+          </div>
+
+          <div class="col d-flex justify-content-center">
+            <a href="/tictacbolts">
+              <img
+                id="card2"
+                style="max-width: 300px; max-height: 300px; border-radius: 15px"
+                class="card-img"
+                src="./assets/media/tictactoe.jpg"
+            /></a>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col d-flex justify-content-center">
+            <h4>WorldView</h4>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <h4>Tic-Tac-Bolts</h4>
+          </div>
+        </div>
+      </div>
+
+      <a href="https://raygreen.dev/">
+        <img
+          id="footerLogo"
+          class="icon"
+          height="50px"
+          width="100px"
+          src="assets/media/logo2.png"
+      /></a>
+      <div id="footerIcons">
+        <span class="mx-2"
+          ><a
+            href="mailto:ray.greenm@gmail.com?subject = Feedback&amp;body = Message"
+            ><i
+              class="icon fab far fa-envelope fa-2x"
+              aria-hidden="true"
+            ></i></a
+        ></span>
+        <span class="mx-2"
+          ><a target="_blank" href="https://www.linkedin.com/in/ray-green/"
+            ><i
+              class=" icon fab fa-linkedin-in fa-2x"
+              aria-hidden="true"
+            ></i></a
+        ></span>
+        <span class="mx-2"
+          ><a target="_blank" href="https://github.com/rgreen32"
+            ><i class="icon fab fa-github fa-2x" aria-hidden="true"></i></a
+        ></span>
+      </div>
+    </div>
+  </body>
+
+</html>
