@@ -3,10 +3,10 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-  context: path.resolve(__dirname, 'src'),
+  context: path.resolve(__dirname, 'src'),        //TODO: img src attributes are getting forwardslashes prepended for some reason. (Breaks imgs)
   entry: './index.ts',
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "../"),
     filename: "index.bundle.js",
     publicPath: "/"
   },
